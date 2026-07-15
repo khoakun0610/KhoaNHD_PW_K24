@@ -1,0 +1,23 @@
+1. git init
+
+- Khởi tạo một Git Repository trong thư mục hiện tại.
+- Sau khi chạy lệnh này sẽ xuất hiện thư mục .git.
+- Git bắt đầu quản lý các file trong project.
+
+2. git add <file_name>
+
+- Thêm một file cụ thể vào Staging Area.
+- Ví dụ:
+  git add index.js
+
+3. git add .
+
+- Thêm tất cả các file đã thay đổi vào Staging Area.
+- Bao gồm file mới, file đã sửa và file đã xóa.
+
+4. git commit -m "message"
+
+- Lưu các thay đổi từ Staging Area vào Repository.
+- "message" là nội dung mô tả cho lần commit.
+- Ví dụ:
+  git commit -m "Add lesson 02 exercises"
